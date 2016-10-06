@@ -1,0 +1,8 @@
+[Desktop Entry]
+Encoding=UTF-8
+Type=Application
+Categories=Utility
+Terminal=false
+Exec=/usr/bin/gesture-manager
+Name=Gesture Manager
+Icon=/usr/share/gesture-manager/icon.svg
