@@ -119,7 +119,7 @@ GESTURES_POSSIBLE=[
 animation_files=dict()
 for g in GESTURES_POSSIBLE:
     animation_files[str(g)] = os.path.realpath(os.path.dirname(__file__)) + \
-        "/" +
+        "/" + \
         'gesturesAnimations/'+ \
         str(g.fingers)+ \
         g.action+ \
