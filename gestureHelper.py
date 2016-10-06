@@ -118,7 +118,9 @@ GESTURES_POSSIBLE=[
 # initialize empty dict of gesture:animationPath
 animation_files=dict()
 for g in GESTURES_POSSIBLE:
-    animation_files[str(g)] = 'gesturesAnimations/'+ \
+    animation_files[str(g)] = os.path.realpath(os.path.dirname(__file__)) + \
+        "/" +
+        'gesturesAnimations/'+ \
         str(g.fingers)+ \
         g.action+ \
         g.direction.capitalize()+ \
