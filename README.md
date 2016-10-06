@@ -19,7 +19,7 @@ Graphical manager for setting libinput-gestures touchpad gestures.
 
 ### Arch Linux
 
-*Coming soon to AUR*
+You can find the `gesture-manager-git` package on AUR.
 
 ### Other distributions
 
