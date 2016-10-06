@@ -186,9 +186,8 @@
     <property name="version">0.1</property>
     <property name="website">https://github.com/gabmus/gesturesmanager</property>
     <property name="authors">Gabriele Musco aka GabMus (frontend)
-someone aka someone (libinput gestures)
-
-Thank gesture works for the gesture icons (Creative Commons Attribution Sharealike license http://gestureworks.com/)</property>
+Mark Blakeney aka bulletmark (libinput-gestures)
+Sabrina B. (hand model for the animations)</property>
     <property name="logo">icon.svg</property>
     <property name="license_type">gpl-3-0</property>
     <child internal-child="vbox">
@@ -388,6 +387,7 @@ Thank gesture works for the gesture icons (Creative Commons Attribution Shareali
       </object>
       <packing>
         <property name="submenu">main</property>
+        <property name="position">1</property>
       </packing>
     </child>
   </object>
